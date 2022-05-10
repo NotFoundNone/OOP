@@ -5,3 +5,7 @@ void Table::setTableOfStudent()
 {
     
 }
+void Table::addMark()
+{
+    
+}
