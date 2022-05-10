@@ -7,7 +7,7 @@ using namespace std;
 class Timetable
 {
 private:
-    string Subject;
+    string subject;
     string time;
     string educator;
     string group;
