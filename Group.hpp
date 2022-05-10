@@ -1,16 +1,18 @@
 #pragma once
 
 #include <iostream>
+#include "Student.hpp"
 
 class Group
 {
 protected:
-    int value = 0;
-    std::string *students = new std::string [value];
+    int numberOfStudents = 30;
+    Student *students = new Student [numberOfStudents];
 public:
     Group();
     Group(int value);
     ~Group();
+    void changeNumberOfStudents();
     void addStudent();
     void addStudents();
     void delStudent();
