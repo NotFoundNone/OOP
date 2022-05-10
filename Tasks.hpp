@@ -4,11 +4,11 @@ using namespace std;
 class Tasks
 {
 private:
-    string object;
+    string Subject;
     string ex;
 public:
-    void setObject(string value);
+    void setSubject(string value);
     void setEx(string value);
-    string getObject();
+    string getSubject();
     string getEx();
 };
