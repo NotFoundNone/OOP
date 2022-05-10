@@ -7,12 +7,12 @@ using namespace std;
 class Timetable
 {
 private:
-    string object;
+    string Subject;
     string time;
     string educator;
     string group;
     string cabinet;
 public:
-    void addObject();
-    void delObject();
+    void addSubject();
+    void delSubject();
 };
