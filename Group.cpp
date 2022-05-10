@@ -13,6 +13,10 @@ Group::~Group()
 {
     delete []students;
 }
+void Group::changeNumberOfStudents()
+{
+    
+}
 void Group::addStudent()
 {
     
@@ -29,3 +33,4 @@ void Group::delStudents()
 {
     
 }
+
