@@ -1,10 +1,10 @@
 #include "Timetable.hpp"
 
-void Timetable::addObject()
+void Timetable::addSubject()
 {
     
 }
-void Timetable::delObject()
+void Timetable::delSubject()
 {
     
 }
