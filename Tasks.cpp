@@ -1,7 +1,7 @@
 
 #include "Tasks.hpp"
 
-void Tasks::setObject(string value)
+void Tasks::setSubject(string value)
 {
     this->object = value;
 }
@@ -9,7 +9,7 @@ void Tasks::setEx(string value)
 {
     this->ex = value;
 }
-string Tasks::getObject()
+string Tasks::getSubject()
 {
     return this->object;
 }
