@@ -2,17 +2,18 @@
 
 #include <iostream>
 #include <string>
+#include "Subject.hpp"
 
+//Расписание - сущность реализована со свойствами: предмет, время, преподаватель, кабинет, группа.
 using namespace std;
 class Timetable
 {
 private:
-    string subject;
+    Subject subject;
     string time;
-    string educator;
     string group;
     string cabinet;
 public:
-    void addSubject();
-    void delSubject();
+    void addObject(Subject subject, string time, string group, string cabinet); //добавление предмета
+    void delObject(Subject subject, string time, string group, string cabinet); //удаление предмета
 };

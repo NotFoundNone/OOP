@@ -1,15 +1,15 @@
 
 #include "Mark.hpp"
 
-void Mark::selectMarkPoint()
+void Mark::selectMarkPoint(int value)
 {
     
 }
-void Mark::addMark()
+void Mark::addMark(int mark)
 {
     
 }
-void Mark::delMark()
+void Mark::delMark(int mark)
 {
     
 }

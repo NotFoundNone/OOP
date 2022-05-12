@@ -1,19 +1,27 @@
 
 #include "Tasks.hpp"
 
-void Tasks::setSubject(string value)
+void Tasks::setExercise(string exercise)
 {
-    this->object = value;
+    this->exercise = exercise;
 }
-void Tasks::setEx(string value)
+void Tasks::setTimeline(string time)
 {
-    this->ex = value;
+    this->Timeline = time;
 }
-string Tasks::getSubject()
+void Tasks::setFile(File file)
 {
-    return this->object;
+    this->file = file;
 }
-string Tasks::getEx()
+string Tasks::getExercise()
 {
-    return this->ex;
+    return this->exercise;
+}
+string Tasks::getTimeline()
+{
+    return this->Timeline;
+}
+File Tasks::getFile()
+{
+    return this->file;
 }

@@ -13,24 +13,23 @@ Group::~Group()
 {
     delete []students;
 }
-void Group::changeNumberOfStudents()
+void Group::changeNumberOfStudents(int value)
 {
     
 }
-void Group::addStudent()
+void Group::addStudent(Student student)
 {
     
 }
-void Group::addStudents()
+void Group::addStudents(Student *students)
 {
     
 }
-void Group::delStudent()
+void Group::delStudent(Student student)
 {
     
 }
-void Group::delStudents()
+void Group::delStudents(Student *students)
 {
     
 }
-

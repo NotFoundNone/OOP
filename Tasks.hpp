@@ -1,14 +1,20 @@
 #pragma once
 #include <iostream>
+#include "File.hpp"
 using namespace std;
+//Задания - сущность реализована с помощью полей типа:  задание, таймлайн.
 class Tasks
 {
 private:
-    string Subject;
-    string ex;
+    string exercise;
+    string Timeline;
+    File file;
+    
 public:
-    void setSubject(string value);
-    void setEx(string value);
-    string getSubject();
-    string getEx();
+    void setExercise(string exercise); //добавление задания
+    void setTimeline(string time); //добавление таймлайна задания
+    void setFile(File file);
+    string getExercise(); 
+    string getTimeline();
+    File getFile();
 };
