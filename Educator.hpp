@@ -13,4 +13,8 @@ public:
     Educator();
     Educator(string firstName,string secondName,string lastName, string dateOfBirth);
     ~Educator();
+    void setFacultyDepartment(string faculty);
+    void setWorkExperience(string experience);
+    string getFacultyDepartment();
+    string getWorkExperience();
 };

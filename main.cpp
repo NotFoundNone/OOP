@@ -7,7 +7,6 @@
 #include "Table.hpp"
 #include "Mark.hpp"
 #include "Timetable.hpp"
-using namespace std;
 
 int main()
 {
